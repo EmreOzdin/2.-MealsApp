@@ -18,6 +18,7 @@ function CategoriesScreen() {
         item.id;
       }}
       renderItem={renderCategoryItem}
+      numColumns={2}
     />
   );
 }
