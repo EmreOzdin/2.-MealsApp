@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet } from "react-native";
 
 import { MEALS } from "../data/dummy-data";
-function MealsOverViewScreen() {
+function MealsOverviewScreen() {
   return (
     <View style={styles.container}>
-      <Text>Meals Overiew Screen</Text>
+      <Text>Meals Overview Screen</Text>
     </View>
   );
 }
 
-export default MealsOverViewScreen;
+export default MealsOverviewScreen;
 
 const styles = StyleSheet.create({
   container: {
