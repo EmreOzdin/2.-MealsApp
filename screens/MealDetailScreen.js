@@ -13,7 +13,7 @@ import { MEALS } from "../data/dummy-data";
 import MealDetails from "./MealDetails";
 import Subtitle from "../components/MealDetail/Subtitle";
 import List from "../components/MealDetail/List";
-import IconButton from "../components/IconButton";
+import IconButton from "../components/iconButton";
 
 function MealDetailScreen({ route, navigation }) {
   const mealId = route.params.mealId;
